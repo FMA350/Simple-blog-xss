@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Blog post</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script onchange="repopulate()"></script>
+</head>
+<body onload="getComments()">
+    <header>
+        <div class="title">
+            <h1>FrancescO'S blog</h1>
+            <p>
+                A <strong>bold</strong> Operating System for <em>amazing</em> users.
+            </p>
+        </div>
+    </header>
+    <div class="central">
+        <article>
+            <h3>Another blog post</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <footer>Posted on 01/03/2019</footer>
+        </article>
+
+        <article class="post">
+            <h3>This is the first post of the blog!</h3>
+            <p>
+                The spread of computers and layout programmes thus made dummy text better known. While in earlier times several lines of the Lorem Ipsum text were repeated in
+                the creation of dummy texts, today the full text of Cicero's 'De finibus' serves as the basis for many dummy text or Lorem Ipsum generators. Based on 'De finibus',
+                these generators automatically create longer sections of the Lorem Ipsum text or various other filler texts.
+            </p>
+            <footer>Posted on the <time datetime="2019-02-28 19:00">29/02/2019</time> </footer>
+        </article>
+
+
+        <div class="comments" id="commentSection">
+        </div>
+
+        <div class="add_comment">
+            <form name="commentForm" onsubmit="postComment(); return false">
+                Comment:        <input class="comment_input" type="text" name="comment" id="comment" required /><br />
+                First name:     <input type="text" name="firstName" id="firstName" required><br/>
+                Last name:      <input type="text" name="lastName" id="lastName" required> <br />
+                Email:          <input type="email" id="email" required/> <br />
+                Date of birth:  <input type="date" name="dateOfBirth" id="dateOfBirth" required/> <br />
+                <label for="Gender">Gender: </label>
+                                <input type="radio" class="radio" name="genders" id="genderNot" value="notSay" required /> Not say
+                                <input type="radio" class="radio" name="genders" id="genderFemale"value="female" required/> Female
+                                <input type="radio" class="radio" name="genders" id="genderMale" value="male" required/> Male
+
+                <button type="submit" class="post_button"  value="Submit">Post!</button>
+                <button type="reset" value="Reset">Reset</button>
+
+            </form>
+        </div>
+    </div>
+
+
+    <div class="left_banner">
+        <div class="author_box">
+            <figure>
+                <a href="http://www.udemy.com" target="_blank">
+                    <img src="img/author.jpg" alt="Arthur Gonzales">
+                </a>
+                <figcaption class="figure_quote">Hi, I am the author, Arthur G. Welcome to this amazing (and <em>supersafe</em>) webpage</figcaption>
+            </figure>
+        </div>
+        <div class="posts_menu">
+            <h3> Useful links </h3>
+            <article class="links">
+              <ul>
+                <li><a href="http://www.duckduckgo.com" target="_blank">A good search engine</a></li><br>
+                <li><a href="http://www.torproject.org" target="_blank">Exit the matrix</a></li><br<
+              </ul>
+            </article>
+        </div>
+    </div>
+
+
+</body>
+</html>

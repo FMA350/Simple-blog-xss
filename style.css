@@ -1,0 +1,120 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+figure{
+    overflow: auto;
+}
+
+
+body {
+    font-size: 18px;
+}
+h1, p {
+    font-family: "lato", "PT", sans-serif;
+}
+
+
+h1{
+    margin-bottom: 20px;
+    color: #214e7e;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    spaci
+    text-align: justify;
+    padding: 5px;
+}
+
+img {
+    margin: 20px;
+
+}
+
+article{
+    background-color: #448db7;
+    width: 95%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #448db7;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.post_button {
+    padding: 13px 30px; /*Since we have to account for the 2px border*/
+    border-style: solid;
+    background-color: white;
+    border-color: #448db7;
+    color: #448db7;
+}
+
+.figure_quote {
+    text-align: left;
+    color: #214e7e;
+}
+
+.left_banner{
+    width: 25%;
+    float: left;
+}
+
+.central {
+    padding: 10px;
+    width: 75%;
+    float: left;
+}
+
+.central p{
+    padding: 25px;
+}
+.author_box figcaption{
+    vertical-align:central;
+    margin: 10px;
+}
+.author_box img {
+    float: left;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.posts_menu{
+  border-radius: 1%
+  margin: 1em;
+  padding: 0;
+  background-color: #b8abc7;
+}
+
+.links{
+  background-color: #b8abc7;
+  padding: 10%;
+}
+
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.comment{
+    background-color: #9c9c9c;
+    width: 50%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
