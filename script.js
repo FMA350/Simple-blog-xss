@@ -20,7 +20,6 @@ function postComment() {
             break;
         }
     }
-    console.log("test");
     var comment = {
         'firstName': document.getElementById("firstName").value,
         'lastName': document.getElementById("lastName").value,
@@ -129,7 +128,3 @@ function getComments() {
     * <div onmouseover="eval(&quot;log(localStorage);&quot;)">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
     * <button onclick="eval(&quot;alert('hi');&quot;)">test it</button>
     */
-
-function repopulate(){
-  console.log("sup");
-}
